@@ -1,0 +1,14 @@
+package avermedia.com.ipd1;
+
+import java.io.File;
+import java.io.FilenameFilter;
+
+public class MediaFilter implements FilenameFilter {
+
+	@Override
+	public boolean accept(File dir, String filename) {
+		// TODO Auto-generated method stub
+		return (filename.endsWith(".mp3"));
+	}
+
+}

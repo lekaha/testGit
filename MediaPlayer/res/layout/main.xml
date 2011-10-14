@@ -1,0 +1,88 @@
+<LinearLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent"
+  	>
+<LinearLayout 
+		android:id="@+id/layout"
+		android:orientation="horizontal"
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content">
+		<EditText 
+			android:layout_height="wrap_content" 
+			android:id="@+id/edt1" 
+			android:layout_width="fill_parent" 
+			android:layout_weight="300" 
+			android:text="@string/edit_path"/>  
+        <ImageButton 
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content" 
+        	android:id="@+id/btn_list" 
+        	
+        	android:src="@drawable/playlist" />
+        	
+</LinearLayout>
+<FrameLayout   
+	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:orientation="vertical"
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+	>
+	<avermedia.com.ipd1.CustomVideoView
+		android:id="@+id/VideoView"
+		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent"
+  		></avermedia.com.ipd1.CustomVideoView>
+		
+	
+	<LinearLayout 
+		android:id="@+id/layout2"
+		android:orientation="horizontal"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content">
+	  	
+	  <ImageButton android:id="@+id/back" 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" 
+	    android:src="@drawable/backward"
+	  />
+	  <ImageButton android:id="@+id/stop" 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" 
+	    android:src="@drawable/stop"
+	    android:layout_marginLeft="10dip"
+	  />
+	   
+       <ImageButton android:id="@+id/play" 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content"
+	    android:src="@drawable/play"
+	    android:layout_marginLeft="10dip"
+	  />
+	  <ImageButton android:id="@+id/pause"
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" 
+	    android:src="@drawable/pause"
+	    android:layout_marginLeft="10dip"
+	  /> 
+	  <ImageButton android:id="@+id/forward"
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" 
+	    android:src="@drawable/forward"
+	    android:layout_marginLeft="10dip"
+	  /> 
+	   
+	  <TextView android:id="@+id/ja"
+  		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:padding="5px"
+    	android:textSize="30sp"
+    	android:textColor="@drawable/white"
+    	
+  		/> 
+	   
+	</LinearLayout>
+
+</FrameLayout>
+</LinearLayout>

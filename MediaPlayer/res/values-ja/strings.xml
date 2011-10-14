@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">たばいたい</string>
+  <string name="btn_submit">OK</string>
+  <string name="edit_path">Please type URL or Path.</string>
+  <string name="config">Configuration</string>
+  <string name="font">font</string>
+  <string name="font_size">font-size</string>
+  <string name="setup">setup</string>
+  <string name="path">線</string>
+</resources>
